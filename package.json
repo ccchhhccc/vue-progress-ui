@@ -1,0 +1,23 @@
+{
+  "name": "vue-progress-ui",
+  "version": "1.0.0",
+  "description": "a vue ui template for progress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccchhhccc/vue-progress-ui.git"
+  },
+  "keywords": [
+    "vue",
+    "progess"
+  ],
+  "author": "https://github.com/ccchhhccc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccchhhccc/vue-progress-ui/issues"
+  },
+  "homepage": "https://github.com/ccchhhccc/vue-progress-ui#readme"
+}
