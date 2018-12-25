@@ -1,14 +1,17 @@
 <template>
   <div class="progress-c">
-    <span class="progress-cpg"></span>
+    <span class="progress-cpg" :style="{'width':precent+'%'}"></span>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "progressui",
+  props:['precent'],
   data() {
     return {};
+  },
+  mounted(){
   }
 };
 </script>
@@ -24,7 +27,6 @@ export default {
 }
 .progress-cpg {
   display: inline-block;
-  width: 50%;
   height: 100%;
   background-size: 30px 30px;
   background-image: linear-gradient(

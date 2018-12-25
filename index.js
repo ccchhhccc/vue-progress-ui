@@ -1,6 +1,6 @@
-import Progress from './Progress.vue'
+import myProgress from './Progressui.vue'
 export default{
     install(Vue){
-        Vue.component(Progress)
+        Vue.component('myProgress',myProgress)
     }
 }
